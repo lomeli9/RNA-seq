@@ -60,7 +60,7 @@ priority 3.12
 autoScale off
 configurable on
 dragAndDrop subtracks
-color 222,45,38
+color 4,127,255
 
 	track rnaSeqWTfemalefasted_1
 	type bigWig
@@ -148,7 +148,7 @@ priority 3.12
 autoScale off
 configurable on
 dragAndDrop subtracks
-color 222,45,38
+color 4,127,255
 
 	track rnaSeqWTfemalefed_1
 	type bigWig
@@ -236,7 +236,7 @@ priority 3.12
 autoScale off
 configurable on
 dragAndDrop subtracks
-color 222,45,38
+color 4,127,255
 
 	track rnaSeqWTmalefasted_1
 	type bigWig
@@ -324,7 +324,7 @@ priority 3.12
 autoScale off
 configurable on
 dragAndDrop subtracks
-color 222,45,38
+color 4,127,255
 
 	track rnaSeqWTmalefed_1
 	type bigWig
