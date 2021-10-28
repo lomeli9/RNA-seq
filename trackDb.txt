@@ -1,0 +1,353 @@
+######################################################
+## RNA-seq HNF4a a7HMZ female fasted - Overlay Track ##
+######################################################
+track rnaSeqa7femalefastedOverlay
+type bigWig
+container multiWig
+shortLabel RNA-seq a7 female fasted
+longLabel RNA-seq a7HMZ female fasted
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:50:8
+viewLimits 0:500
+viewLimitsMax 0:3000
+priority 3.12
+autoScale off
+configurable on
+dragAndDrop subtracks
+color 222,45,38
+
+	track rnaSeqa7femalefasted_1
+	type bigWig
+	shortLabel a7 fem fasted Rep1
+	longLabel a7HMZ female fasted Rep1
+	bigDataUrl a7HMZ_female_fasted_1_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7femalefastedOverlay
+	color 254,224,210
+
+	track rnaSeqa7femalefasted_2
+	type bigWig
+	shortLabel a7 fem fasted Rep2
+	longLabel a7HMZ female fasted Rep2
+	bigDataUrl a7HMZ_female_fasted_2_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7femalefastedOverlay
+	color 252,146,114
+
+	track rnaSeqa7femalefasted_3
+	type bigWig
+	shortLabel a7 fem fasted Rep3
+	longLabel a7HMZ female fasted Rep3
+	bigDataUrl a7HMZ_female_fasted_3_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7femalefastedOverlay
+	color 222,45,38
+
+######################################################
+## RNA-seq HNF4a WT female fasted - Overlay Track ##
+######################################################
+track rnaSeqWTfemalefastedOverlay
+type bigWig
+container multiWig
+shortLabel RNA-seq WT female fasted
+longLabel RNA-seq WT female fasted
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:50:8
+viewLimits 0:500
+viewLimitsMax 0:3000
+priority 3.12
+autoScale off
+configurable on
+dragAndDrop subtracks
+color 222,45,38
+
+	track rnaSeqWTfemalefasted_1
+	type bigWig
+	shortLabel WT fem fasted Rep1
+	longLabel WT female fasted Rep1
+	bigDataUrl WT_female_fasted_1_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTfemalefastedOverlay
+	color 222,235,247
+
+	track rnaSeqWTfemalefasted_2
+	type bigWig
+	shortLabel WT fem fasted Rep2
+	longLabel WT female fasted Rep2
+	bigDataUrl WT_female_fasted_2_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTfemalefastedOverlay
+	color 158,202,225
+
+	track rnaSeqWTfemalefasted_3
+	type bigWig
+	shortLabel WT fem fasted Rep3
+	longLabel WT female fasted Rep3
+	bigDataUrl WT_female_fasted_3_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTfemalefastedOverlay
+	color 4,127,255
+
+######################################################
+## RNA-seq HNF4a a7HMZ female fed - Overlay Track ##
+######################################################
+track rnaSeqa7femalefedOverlay
+type bigWig
+container multiWig
+shortLabel RNA-seq a7 female fed
+longLabel RNA-seq a7HMZ female fed
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:50:8
+viewLimits 0:500
+viewLimitsMax 0:3000
+priority 3.12
+autoScale off
+configurable on
+dragAndDrop subtracks
+color 222,45,38
+
+	track rnaSeqa7femalefed_1
+	type bigWig
+	shortLabel a7 fem fed Rep1
+	longLabel a7HMZ female fed Rep1
+	bigDataUrl a7HMZ_female_fed_1_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7femalefedOverlay
+	color 254,224,210
+
+	track rnaSeqa7femalefed_2
+	type bigWig
+	shortLabel a7 fem fed Rep2
+	longLabel a7HMZ female fed Rep2
+	bigDataUrl a7HMZ_female_fed_2_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7femalefedOverlay
+	color 252,146,114
+
+	track rnaSeqa7femalefed_3
+	type bigWig
+	shortLabel a7 fem fed Rep3
+	longLabel a7HMZ female fed Rep3
+	bigDataUrl a7HMZ_female_fed_3_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7femalefedOverlay
+	color 222,45,38
+
+######################################################
+## RNA-seq HNF4a WT female fed - Overlay Track ##
+######################################################
+track rnaSeqWTfemalefedOverlay
+type bigWig
+container multiWig
+shortLabel RNA-seq WT female fed
+longLabel RNA-seq WT female fed
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:50:8
+viewLimits 0:500
+viewLimitsMax 0:3000
+priority 3.12
+autoScale off
+configurable on
+dragAndDrop subtracks
+color 222,45,38
+
+	track rnaSeqWTfemalefed_1
+	type bigWig
+	shortLabel WT fem fed Rep1
+	longLabel WT female fed Rep1
+	bigDataUrl WT_female_fed_1_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTfemalefedOverlay
+	color 222,235,247
+
+	track rnaSeqWTfemalefed_2
+	type bigWig
+	shortLabel WT fem fed Rep2
+	longLabel WT female fed Rep2
+	bigDataUrl WT_female_fed_2_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTfemalefedOverlay
+	color 158,202,225
+
+	track rnaSeqWTfemalefed_3
+	type bigWig
+	shortLabel WT fem fed Rep3
+	longLabel WT female fed Rep3
+	bigDataUrl WT_female_fed_3_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTfemalefedOverlay
+	color 4,127,255
+
+######################################################
+## RNA-seq HNF4a a7HMZ male fasted - Overlay Track ##
+######################################################
+track rnaSeqa7malefastedOverlay
+type bigWig
+container multiWig
+shortLabel RNA-seq a7 male fasted
+longLabel RNA-seq a7HMZ male fasted
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:50:8
+viewLimits 0:500
+viewLimitsMax 0:3000
+priority 3.12
+autoScale off
+configurable on
+dragAndDrop subtracks
+color 222,45,38
+
+	track rnaSeqa7malefasted_1
+	type bigWig
+	shortLabel a7 mal fasted Rep1
+	longLabel a7HMZ male fasted Rep1
+	bigDataUrl a7HMZ_male_fasted_1_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7malefastedOverlay
+	color 254,224,210
+
+	track rnaSeqa7malefasted_2
+	type bigWig
+	shortLabel a7 mal fasted Rep2
+	longLabel a7HMZ male fasted Rep2
+	bigDataUrl a7HMZ_male_fasted_2_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7malefastedOverlay
+	color 252,146,114
+
+	track rnaSeqa7malefasted_3
+	type bigWig
+	shortLabel a7 mal fasted Rep3
+	longLabel a7HMZ male fasted Rep3
+	bigDataUrl a7HMZ_male_fasted_3_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7malefastedOverlay
+	color 222,45,38
+
+######################################################
+## RNA-seq HNF4a WT male fasted - Overlay Track ##
+######################################################
+track rnaSeqWTmalefastedOverlay
+type bigWig
+container multiWig
+shortLabel RNA-seq WT male fasted
+longLabel RNA-seq WT male fasted
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:50:8
+viewLimits 0:500
+viewLimitsMax 0:3000
+priority 3.12
+autoScale off
+configurable on
+dragAndDrop subtracks
+color 222,45,38
+
+	track rnaSeqWTmalefasted_1
+	type bigWig
+	shortLabel WT mal fasted Rep1
+	longLabel WT male fasted Rep1
+	bigDataUrl WT_male_fasted_1_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTmalefastedOverlay
+	color 222,235,247
+
+	track rnaSeqWTmalefasted_2
+	type bigWig
+	shortLabel WT mal fasted Rep2
+	longLabel WT male fasted Rep2
+	bigDataUrl WT_male_fasted_2_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTmalefastedOverlay
+	color 158,202,225
+
+	track rnaSeqWTmalefasted_3
+	type bigWig
+	shortLabel WT mal fasted Rep3
+	longLabel WT male fasted Rep3
+	bigDataUrl WT_male_fasted_3_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTmalefastedOverlay
+	color 4,127,255
+
+######################################################
+## RNA-seq HNF4a a7HMZ male fed - Overlay Track ##
+######################################################
+track rnaSeqa7malefedOverlay
+type bigWig
+container multiWig
+shortLabel RNA-seq a7 male fed
+longLabel RNA-seq a7HMZ male fed
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:50:8
+viewLimits 0:500
+viewLimitsMax 0:3000
+priority 3.12
+autoScale off
+configurable on
+dragAndDrop subtracks
+color 222,45,38
+
+	track rnaSeqa7malefed_1
+	type bigWig
+	shortLabel a7 mal fed Rep1
+	longLabel a7HMZ male fed Rep1
+	bigDataUrl a7HMZ_male_fed_1_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7malefedOverlay
+	color 254,224,210
+
+	track rnaSeqa7malefed_2
+	type bigWig
+	shortLabel a7 mal fed Rep2
+	longLabel a7HMZ male fed Rep2
+	bigDataUrl a7HMZ_male_fed_2_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7malefedOverlay
+	color 252,146,114
+
+	track rnaSeqa7malefed_3
+	type bigWig
+	shortLabel a7 mal fed Rep3
+	longLabel a7HMZ male fed Rep3
+	bigDataUrl a7HMZ_male_fed_3_Aligned.sortedByCoord.out.bw
+	parent rnaSeqa7malefedOverlay
+	color 222,45,38
+
+######################################################
+## RNA-seq HNF4a WT male fed - Overlay Track ##
+######################################################
+track rnaSeqWTmalefedOverlay
+type bigWig
+container multiWig
+shortLabel RNA-seq WT male fed
+longLabel RNA-seq WT male fed
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:50:8
+viewLimits 0:500
+viewLimitsMax 0:3000
+priority 3.12
+autoScale off
+configurable on
+dragAndDrop subtracks
+color 222,45,38
+
+	track rnaSeqWTmalefed_1
+	type bigWig
+	shortLabel WT mal fed Rep1
+	longLabel WT male fed Rep1
+	bigDataUrl WT_male_fed_1_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTmalefedOverlay
+	color 222,235,247
+
+	track rnaSeqWTmalefed_2
+	type bigWig
+	shortLabel WT mal fed Rep2
+	longLabel WT male fed Rep2
+	bigDataUrl WT_male_fed_2_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTmalefedOverlay
+	color 158,202,225
+
+	track rnaSeqWTmalefed_3
+	type bigWig
+	shortLabel WT mal fed Rep3
+	longLabel WT male fed Rep3
+	bigDataUrl WT_male_fed_3_Aligned.sortedByCoord.out.bw
+	parent rnaSeqWTmalefedOverlay
+	color 4,127,255
+
+
